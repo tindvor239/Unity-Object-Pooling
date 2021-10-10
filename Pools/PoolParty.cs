@@ -41,7 +41,7 @@ public class PoolParty : MonoBehaviour
     private void Awake()
     {
         #region Singleton
-        instance = Singleton.Singletonize(instance, this);
+        instance = this;
         #endregion
     }
 
